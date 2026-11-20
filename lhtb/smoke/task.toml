@@ -1,0 +1,13 @@
+schema_version = "1.2"
+[task]
+name = "local/lhtb-adapter-smoke"
+[agent]
+continue_until_timeout = true
+timeout_sec = 180
+[environment]
+docker_image = "python:3.11-slim"
+cpus = 1
+memory_mb = 2048
+[verifier]
+timeout_sec = 20
+environment_mode = "shared"
