@@ -1,0 +1,182 @@
+{
+  "code_commit": "ea8d153a9d934338dceb8962947df8f60d0670db",
+  "dataset_commit": "7ca0cacea9bf6a0694eaad7306bed794eaaaabce",
+  "verified_dataset_and_harbor_paths": 4314,
+  "official_tasks": 77,
+  "git_lfs_objects": 5,
+  "model": "deepseek-v4-1-flash-261017",
+  "formal_trials_run": 0,
+  "accepted_edit_replay": "passed (controlled transcript)",
+  "recall_fixture": {
+    "native": {
+      "session": "771c237b-fd81-46d0-b580-a0004d48e171",
+      "phases": [
+        {
+          "phase": 1,
+          "session_events": 25
+        },
+        {
+          "phase": 2,
+          "session_events": 12
+        }
+      ],
+      "api_attempts_with_receipts": 3,
+      "complete_api_calls": 3,
+      "billing_lines_removed": 3,
+      "checkpoints": [
+        {
+          "id": "final",
+          "active_sec": 6.117421538103372,
+          "rewards": {
+            "reward": 1.0
+          },
+          "error": null
+        }
+      ],
+      "trial_error": null,
+      "official_grade": {
+        "rewards": {
+          "reward": 1.0
+        }
+      }
+    },
+    "clm": {
+      "session": "0b64cdfc-82c7-48e2-aa49-c7d1bfe3d33d",
+      "phases": [
+        {
+          "phase": 1,
+          "session_events": 16
+        },
+        {
+          "phase": 2,
+          "session_events": 117
+        }
+      ],
+      "api_attempts_with_receipts": 3,
+      "complete_api_calls": 3,
+      "billing_lines_removed": 3,
+      "checkpoints": [
+        {
+          "id": "final",
+          "active_sec": 7.712397833936848,
+          "rewards": {
+            "reward": 1.0
+          },
+          "error": null
+        }
+      ],
+      "trial_error": null,
+      "official_grade": {
+        "rewards": {
+          "reward": 1.0
+        }
+      }
+    }
+  },
+  "sqlite_short_run": {
+    "native": {
+      "session": "24f8cf98-2f61-48ee-927d-31c349012ac3",
+      "phases": [
+        {
+          "phase": 1,
+          "session_events": 727
+        },
+        {
+          "phase": 2,
+          "session_events": 678
+        },
+        {
+          "phase": 3,
+          "session_events": 48
+        },
+        {
+          "phase": 4,
+          "session_events": 0
+        }
+      ],
+      "api_attempts_with_receipts": 9,
+      "complete_api_calls": 9,
+      "billing_lines_removed": 9,
+      "checkpoints": [
+        {
+          "id": "checkpoint-01",
+          "active_sec": 22.24234616092872,
+          "rewards": {
+            "reward": 0.1667
+          },
+          "error": null
+        },
+        {
+          "id": "checkpoint-02",
+          "active_sec": 44.23719019384589,
+          "rewards": {
+            "reward": 0.1667
+          },
+          "error": null
+        },
+        {
+          "id": "final",
+          "active_sec": 53.00064161384944,
+          "rewards": {
+            "reward": 0.6404
+          },
+          "error": null
+        }
+      ],
+      "trial_error": null,
+      "official_grade": {
+        "rewards": {
+          "reward": 0.6404
+        }
+      }
+    },
+    "clm": {
+      "session": "ebda3306-023a-45d4-bd45-81f20c862a59",
+      "phases": [
+        {
+          "phase": 1,
+          "session_events": 370
+        },
+        {
+          "phase": 2,
+          "session_events": 660
+        }
+      ],
+      "api_attempts_with_receipts": 10,
+      "complete_api_calls": 10,
+      "billing_lines_removed": 10,
+      "checkpoints": [
+        {
+          "id": "checkpoint-01",
+          "active_sec": 22.23907968995627,
+          "rewards": {
+            "reward": 0.1667
+          },
+          "error": null
+        },
+        {
+          "id": "checkpoint-02",
+          "active_sec": 44.28963741892949,
+          "rewards": {
+            "reward": 0.1667
+          },
+          "error": null
+        },
+        {
+          "id": "final",
+          "active_sec": 53.001173628959805,
+          "rewards": {
+            "reward": 0.1667
+          },
+          "error": null
+        }
+      ],
+      "trial_error": null,
+      "official_grade": {
+        "rewards": {
+          "reward": 0.1667
+        }
+      }
+    }
+  }
+}
